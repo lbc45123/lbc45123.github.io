@@ -26,7 +26,8 @@
       "startDate": "2024-06-01",
       "endDate": "2024-09-01",
       // "summary": "Inverse design for tackling bandwidth bottleneck in next-generation platforms",
-      "highlights": []
+      "highlights": [],
+      "selected": true
     },
     {
       "name": "Jump Trading",
@@ -35,7 +36,8 @@
       "startDate": "2023-06-01",
       "endDate": "2023-08-01",
       // "summary": "Scalable alpha research in high-frequency and mid-frequency problems",
-      "highlights": []
+      "highlights": [],
+      "selected": true
     },
     {
       "name": "Citadel",
@@ -44,7 +46,8 @@
       "startDate": "2022-06-01",
       "endDate": "2022-08-01",
       // "summary": "Exotic modeling in mid-frequency problems",
-      "highlights": []
+      "highlights": [],
+      "selected": true
     }
   ],
   "volunteer": [],
@@ -55,7 +58,7 @@
       "area": "Applied Physics, Minor in Statistics",
       "studyType": "PhD",
       "startDate": "2018-09-01",
-      "endDate": "2024-12-01",
+      "endDate": "2024-06-01",
       "score": "",
       "courses": [],
       "selected": true
