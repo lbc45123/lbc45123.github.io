@@ -64,7 +64,7 @@ ninja.data = [{
               window.location.href = "/projects/pseudomodular_group/";
             },},{id: "projects-twisted-bilayer-photonic-crystals",
           title: 'Twisted Bilayer Photonic Crystals',
-          description: "Exploring light manipulation in moiré photonic lattices.",
+          description: "Invented theory and algorithm for exotic structure that used to be solvable only in special cases",
           section: "Projects",handler: () => {
               window.location.href = "/projects/twisted_bilayer/";
             },},{
@@ -72,28 +72,28 @@ ninja.data = [{
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%65%6D%61%69%6C@%65%78%61%6D%70%6C%65.%63%6F%6D", "_blank");
+          window.open("mailto:%62%65%69%63%68%65%6E%67%6C%6F%75@%6F%75%74%6C%6F%6F%6B.%63%6F%6D", "_blank");
         },
       },{
         id: 'social-github',
         title: 'GitHub',
         section: 'Socials',
         handler: () => {
-          window.open("https://github.com/your-github", "_blank");
+          window.open("https://github.com/lbc45123", "_blank");
         },
       },{
         id: 'social-linkedin',
         title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.linkedin.com/in/your-linkedin", "_blank");
+          window.open("https://www.linkedin.com/in/beicheng-lou", "_blank");
         },
       },{
         id: 'social-scholar',
         title: 'Google Scholar',
         section: 'Socials',
         handler: () => {
-          window.open("https://scholar.google.com/citations?user=qc6CJjYAAAAJ", "_blank");
+          window.open("https://scholar.google.com/citations?user=gNw-Q3MAAAAJ", "_blank");
         },
       },{
       id: 'light-theme',
