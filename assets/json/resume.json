@@ -15,7 +15,7 @@
       "url": "https://www.jumptrading.com/",
       "startDate": "2024-09-01",
       "endDate": "",
-      "summary": "Next-generation pipeline for great things",
+      // "summary": "Next-generation pipeline for great things",
       "highlights": [],
       "selected": true
     },
@@ -55,11 +55,12 @@
     {
       "institution": "Stanford University",
       "url": "https://www.stanford.edu/",
-      "area": "Applied Physics, Minor in Statistics",
+      "area": "Applied Physics*, minor in Statistics**",
       "studyType": "PhD",
       "startDate": "2018-09-01",
       "endDate": "2024-06-01",
       "score": "",
+      "description": "*  Advisor: Prof. Shanhui Fan.\n** and unofficially, Computer Science and Physical Education too by coursework : )",
       "courses": [],
       "selected": true
     },
@@ -71,7 +72,9 @@
       "startDate": "2015-09-01",
       "endDate": "2018-06-01",
       "score": "",
-      "courses": []
+      // "description": "yes yes was in a rush",
+      "courses": [],
+      "selected": true
     },
     {
       "institution": "University of Toronto",

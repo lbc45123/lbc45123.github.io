@@ -30,13 +30,21 @@ latest_posts:
 ---
 
 
-<div class="intro-text">
-  - Researcher at <a href="https://www.jumptrading.com/">Jump Trading</a> (2024-present). 
-  <br>
-  - PhD in applied physics from Stanford University (2018-2024). Advised by <a href="https://scholar.google.com/citations?user=BECu7wYAAAAJ&hl=en">Shanhui Fan</a>. Research on novel theory and numerical methods for photonic structures.
-  <br>
-  - Intersted in artificial intelligence at scale and modeling interactions in complex systems.
+<div class="intro-text small">
+  <div class="mb-2">
+    <strong>Currently:</strong>
+    <div class="ml-4">Researcher at <a href="https://www.jumptrading.com/">Jump Trading</a> (2024-present).</div>
+  </div>
+  <div class="mb-2">
+    <strong>Previously:</strong>
+    <div class="ml-4">PhD in Applied Physics from Stanford University (2018-2024). Advised by <a href="https://scholar.google.com/citations?user=BECu7wYAAAAJ&hl=en">Shanhui Fan</a>. Research on novel theory and numerical methods for photonic structures.</div>
+  </div>
+  <div>
+    <strong>Interested in:</strong>
+    <div class="ml-4">Artificial intelligence at scale and modeling interactions in complex systems.</div>
+  </div>
 </div>
+
 
 <div class="custom-quote">
   "More is different."

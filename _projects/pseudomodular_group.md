@@ -17,8 +17,8 @@ But how many pseudomodular groups are there? Most importantly, are there finitel
 
 
 ### Answer
-In short, yes. We came up with a construction method that can give infinitely many commensurability classes that are not modular. Each of them has the nice property of having an orbit of all rational numbers.
+In short, yes. 
+We came up with a construction method that can give infinitely many commensurability classes that are not modular. Each of them has the nice property of having an orbit of all rational numbers.
 
-For full details, see our two papers.
+For full details, see our two papers {% cite mygt %} and {% cite myimrn %}.
 
-### Reference

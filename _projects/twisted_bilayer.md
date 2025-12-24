@@ -1,18 +1,21 @@
 ---
 layout: page
 title: Twisted Bilayer Photonic Crystals
-description: Exploring light manipulation in moiré photonic lattices.
+description: Invented theory and algorithm for exotic structure that used to be solvable only in special cases
 img: assets/img/publication_preview/brownian-motion.gif # Placeholder
 importance: 1
 category: work
 related_publications: true
 ---
 
-This project explores the fascinating optical properties of twisted bilayer photonic crystal slabs. By stacking two photonic crystal slabs and rotating them relative to each other, we create a moiré pattern that significantly alters the flow of light.
+### Problem
+Photonic crystals are periodic and well-studied. 
+Twisted bilayer photonic crystals are quasi-periodic and show disorder-like properties, even though the structure is highly ordered.
+For long, people cannot exactly compute the properties of this system and treated it like disorder.
 
-### Key Highlights
-- **Tunable Resonance:** We demonstrated how the twist angle can be used to tune the frequency of guided resonances.
-- **Flat Bands:** Moiré physics leads to the emergence of extremely flat bands, which can enhance light-matter interaction.
-- **Inverse Design:** Using machine learning and automatic differentiation to design these complex structures.
+### Our work
+- **Theory and algorithm:** We came up with an algorithm to compute such systems exactly for all cases in general and effective theories for the phenomenon {% cite myprl rcwa4d %}.
+- **Experimental verification:** We verify our theory and numerical results with experiment {% cite mysci mysci2 %}.
+- **Applications enabled:** We work out all the details to use it for device applications {% cite myacs beamsteer sensing %}.
 
 Check out the related publications below for more details.

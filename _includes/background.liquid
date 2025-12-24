@@ -1,109 +1,79 @@
 <div class="background">
-  {% if site.data.resume %}
-    {% for category in site.data.resume %}
-      {% assign category_name = category[0] %}
-      {% if category_name == 'education' or category_name == 'work' %}
-        {% for entry in category[1] %}
-          {% if entry.selected %}
-            <div class="card mt-3 p-3">
-              <h3 class="card-title font-weight-medium">
-                {% if category_name == 'education' %}
-                  {{ entry.studyType }}
+  {% assign resume = site.data.resume %}
+  
+  <!-- Education -->
+  {% if resume.education %}
+  <div class="mt-3 fade-in-up" style="animation-delay: 0.2s;">
+    <h3 class="font-weight-medium">Education</h3>
+    <ul class="list-unstyled">
+      {% for entry in resume.education %}
+        {% if entry.selected %}
+          <li class="mb-2">
+            <div class="d-flex justify-content-between align-items-baseline">
+              <div>
+                <span class="font-weight-bold">{{ entry.studyType }}</span>
+                {% if entry.area %} in {{ entry.area }}{% endif %}
+                <span class="text-muted">@ 
+                  {% if entry.url %}
+                    <a href="{{ entry.url }}" target="_blank">{{ entry.institution }}</a>
+                  {% else %}
+                    {{ entry.institution }}
+                  {% endif %}
+                </span>
+              </div>
+              <div class="text-muted small text-nowrap ml-3">
+                {% assign startDate = entry.startDate | split: '-' | slice: 0, 2 | join: '.' %}
+                {% if entry.endDate %}
+                  {% assign endDate = entry.endDate | split: '-' | slice: 0, 2 | join: '.' %}
                 {% else %}
-                  {{ entry.position }}
+                  {% assign endDate = 'Present' %}
                 {% endif %}
-              </h3>
-              
-              <ul class="card-text font-weight-light list-group list-group-flush">
-                <li class="list-group-item">
-                  <div class="row">
-                    <!-- Date Column -->
-                    <div class="col-xs-2 cl-sm-2 col-md-2 text-center date-column">
-                      {% if entry.startDate %}
-                        {% assign startDate = entry.startDate | split: '-' | slice: 0, 2 | join: '.' %}
-                        {% assign endDate = entry.endDate | split: '-' | slice: 0, 2 | join: '.' | default: 'Present' %}
-                        {% assign date = startDate | append: ' - ' | append: endDate %}
-                      {% else %}
-                        {% assign date = '' %}
-                      {% endif %}
-                      <table class="table-cv">
-                        <tbody>
-                          <tr>
-                            <td>
-                              <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px">{{ date }}</span>
-                            </td>
-                          </tr>
-                          {% if entry.location %}
-                            <tr>
-                              <td>
-                                <p class="location">
-                                  <i class="fa-solid fa-location-dot iconlocation"></i>
-                                  {{ entry.location }}
-                                </p>
-                              </td>
-                            </tr>
-                          {% endif %}
-                        </tbody>
-                      </table>
-                    </div>
-
-                    <!-- Content Column -->
-                    <div class="col-xs-10 cl-sm-10 col-md-10 mt-2 mt-md-0">
-                      <h6 class="title font-weight-bold ml-1 ml-md-4">
-                        {% if category_name == 'education' %}
-                          {{ entry.institution }}
-                        {% else %}
-                          <a href="{{ entry.url }}">{{ entry.name }}</a>
-                        {% endif %}
-                      </h6>
-                      
-                      {% if category_name == 'education' %}
-                        <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem; font-style: italic">{{ entry.area }}</h6>
-                        <ul class="items">
-                          {% for item in entry.courses %}
-                            <li><span class="item">{{ item }}</span></li>
-                          {% endfor %}
-                        </ul>
-                      {% else %}
-                        <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem; font-style: italic">{{ entry.summary }}</h6>
-                        <ul class="items">
-                          {% for item in entry.highlights %}
-                            <li><span class="item">{{ item }}</span></li>
-                          {% endfor %}
-                        </ul>
-                      {% endif %}
-                    </div>
-                  </div>
-                </li>
-              </ul>
+                {{ startDate }} - {{ endDate }}
+              </div>
             </div>
-          {% endif %}
-        {% endfor %}
-      {% endif %}
-    {% endfor %}
-  {% else %}
-    {% for entry in site.data.cv %}
-      {% if entry.selected %}
-        <a class="anchor" id="{{ entry.title }}"></a>
-        <div class="card mt-3 p-3">
-          <h3 class="card-title font-weight-medium">{{ entry.title }}</h3>
-          <div>
-            {% if entry.type == 'list' %}
-              {% include cv/list.liquid %}
-            {% elsif entry.type == 'map' %}
-              {% include cv/map.liquid %}
-            {% elsif entry.type == 'nested_list' %}
-              {% include cv/nested_list.liquid %}
-            {% elsif entry.type == 'time_table' %}
-              {% include cv/time_table.liquid %}
-            {% elsif entry.type == 'list_groups' %}
-              {% include cv/list_groups.liquid %}
-            {% else %}
-              {{ entry.contents }}
+            {% if entry.description %}
+              <div class="small text-muted font-italic ml-3 mt-1">
+                {{ entry.description | newline_to_br }}
+              </div>
             {% endif %}
-          </div>
-        </div>
-      {% endif %}
-    {% endfor %}
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
+  {% endif %}
+
+  <!-- Work -->
+  {% if resume.work %}
+  <div class="mt-3 fade-in-up" style="animation-delay: 0.3s;">
+    <h3 class="font-weight-medium">Work</h3>
+    <ul class="list-unstyled">
+      {% for entry in resume.work %}
+        {% if entry.selected %}
+          <li class="mb-2 d-flex justify-content-between align-items-baseline">
+            <div>
+              <span class="font-weight-bold">{{ entry.position }}</span>
+              <span class="text-muted">@ 
+                {% if entry.url %}
+                  <a href="{{ entry.url }}" target="_blank">{{ entry.name }}</a>
+                {% else %}
+                  {{ entry.name }}
+                {% endif %}
+              </span>
+            </div>
+            <div class="text-muted small text-nowrap ml-3">
+              {% assign startDate = entry.startDate | split: '-' | slice: 0, 2 | join: '.' %}
+              {% if entry.endDate %}
+                {% assign endDate = entry.endDate | split: '-' | slice: 0, 2 | join: '.' %}
+              {% else %}
+                {% assign endDate = 'Present' %}
+              {% endif %}
+              {{ startDate }} - {{ endDate }}
+            </div>
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
   {% endif %}
 </div>
