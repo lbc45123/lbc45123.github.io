@@ -30,9 +30,9 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-just-a-moment",
+        },{id: "post-architecture-optimization-with-gnn",
         
-          title: 'Just a moment... <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+          title: 'Architecture Optimization with GNN <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
         
         description: "Toy example to study architecture evolution as graph",
         section: "Posts",
@@ -64,7 +64,7 @@ ninja.data = [{
               window.location.href = "/projects/pseudomodular_group/";
             },},{id: "projects-twisted-bilayer-photonic-crystals",
           title: 'Twisted Bilayer Photonic Crystals',
-          description: "Invented theory and algorithm for exotic structure that used to be solvable only in special cases",
+          description: "An exotic structure that is ordered but complex and disorder-like, which could not be generally solved until our work",
           section: "Projects",handler: () => {
               window.location.href = "/projects/twisted_bilayer/";
             },},{
