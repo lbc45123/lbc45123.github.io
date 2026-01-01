@@ -11,7 +11,7 @@ contact_note: >
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   >.<
 footer_text: >
-  -.-
+  (⁠+⁠_⁠+⁠)
 keywords: quantitative researcher, jump trading, stanford, publications # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
@@ -120,15 +120,15 @@ disqus_shortname: al-folio # put your disqus shortname
 # External sources.
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
-external_sources:
-  - name: medium.com
-    # rss_url: https://medium.com/@lbc45123/feed
-    posts:
-      - url: https://medium.com/@lbc45123/architecture-optimization-with-gnn-b06a25e79cf2
-        published_date: 2023-03-22
-        summary: "Toy example to study architecture evolution as graph"
-        tags: [ML]
-        categories: [essay]
+# external_sources:
+#   - name: medium.com
+#     # rss_url: https://medium.com/@lbc45123/feed
+#     posts:
+#       - url: https://medium.com/@lbc45123/architecture-optimization-with-gnn-b06a25e79cf2
+#         published_date: 2023-03-22
+#         summary: "Toy example to study architecture evolution as graph"
+#         tags: [ML]
+#         categories: [essay]
   # - name: Google Blog
   #   posts:
   #     - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
