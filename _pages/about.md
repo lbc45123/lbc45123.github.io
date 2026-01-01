@@ -30,7 +30,7 @@ latest_posts:
 ---
 
 
-<div class="intro-text small">
+<div class="intro-text">
   <div class="mb-2">
     <strong>Currently:</strong>
     <div class="ml-4">Researcher at <a href="https://www.jumptrading.com/">Jump Trading</a> (2024-present).</div>

@@ -1582,14 +1582,6 @@ a:not(.btn):not(.nav-link):not(.card-link):not(.post-title) {
 }
 
 // 7. Intro & Hero Styles
-.intro-text {
-  font-size: 1.35rem;
-  font-weight: 300; // Light weight for elegance
-  line-height: 1.6;
-  color: var(--global-text-color);
-  margin-bottom: 2rem;
-  text-align: left; // Or center, if you prefer
-}
 
 .custom-quote {
   border-left: 4px solid var(--global-theme-color);
