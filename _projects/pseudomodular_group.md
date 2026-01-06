@@ -22,3 +22,4 @@ We came up with a construction method that can give infinitely many commensurabi
 
 For full details, see our two papers {% cite mygt %} and {% cite myimrn %}.
 
+Huge shout-out to Prof. Ser Peow Tan who carried us through this long journey.
