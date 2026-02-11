@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-02-04'
+  last_updated: '2026-02-11'
 papers:
   gNw-Q3MAAAAJ:0EnyYjriUFMC:
     citations: 1
@@ -30,7 +30,7 @@ papers:
     title: Three-dimensional reconfigurable optical singularities in bilayer photonic crystals
     year: '2024'
   gNw-Q3MAAAAJ:IjCSPb-OGe4C:
-    citations: 263
+    citations: 265
     title: Inverse design of photonic crystals through automatic differentiation
     year: '2020'
   gNw-Q3MAAAAJ:KlAtU1dfN6UC:
@@ -50,7 +50,7 @@ papers:
     title: On-Chip Multidimensional Dynamic Control of Twisted Moir\'e Photonic Crystal for Smart Sensing and Imaging
     year: '2023'
   gNw-Q3MAAAAJ:ULOm3_A8WrAC:
-    citations: 5
+    citations: 6
     title: 'RCWA4D: Electromagnetic solver for layered structures with incommensurate periodicities'
     year: '2025'
   gNw-Q3MAAAAJ:UeHWp8X0CEIC:
@@ -94,7 +94,7 @@ papers:
     title: Control of chirality and directionality of nonlinear metasurface light source via twisting
     year: '2025'
   gNw-Q3MAAAAJ:aqlVkmm33-oC:
-    citations: 26
+    citations: 27
     title: "An adaptive moir\xE9 sensor for spectro-polarimetric hyperimaging"
     year: '2025'
   gNw-Q3MAAAAJ:d1gkVwhDpl0C:
