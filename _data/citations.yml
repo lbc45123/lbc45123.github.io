@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-03-13'
+  last_updated: '2026-03-16'
 papers:
   gNw-Q3MAAAAJ:0EnyYjriUFMC:
     citations: 1
@@ -26,7 +26,7 @@ papers:
     title: Direct Imaging of Band Structure in Twisted Bilayer Photonic Crystal Slabs
     year: '2023'
   gNw-Q3MAAAAJ:8k81kl-MbHgC:
-    citations: 70
+    citations: 72
     title: Three-dimensional reconfigurable optical singularities in bilayer photonic crystals
     year: '2024'
   gNw-Q3MAAAAJ:9ZlFYXVOiuMC:
@@ -34,7 +34,7 @@ papers:
     title: Dynamic control of intrinsic optical chirality via MEMS-integrated photonic crystals
     year: '2026'
   gNw-Q3MAAAAJ:IjCSPb-OGe4C:
-    citations: 273
+    citations: 274
     title: Inverse design of photonic crystals through automatic differentiation
     year: '2020'
   gNw-Q3MAAAAJ:KlAtU1dfN6UC:
@@ -50,7 +50,7 @@ papers:
     title: Twist-Induced Beam Steering and Blazing Effects in Photonic Crystal Devices
     year: '2025'
   gNw-Q3MAAAAJ:MXK_kJrjxJIC:
-    citations: 13
+    citations: 14
     title: On-Chip Multidimensional Dynamic Control of Twisted Moir\'e Photonic Crystal for Smart Sensing and Imaging
     year: '2023'
   gNw-Q3MAAAAJ:ULOm3_A8WrAC:
@@ -98,7 +98,7 @@ papers:
     title: Control of chirality and directionality of nonlinear metasurface light source via twisting
     year: '2025'
   gNw-Q3MAAAAJ:aqlVkmm33-oC:
-    citations: 32
+    citations: 34
     title: "An adaptive moir\xE9 sensor for spectro-polarimetric hyperimaging"
     year: '2025'
   gNw-Q3MAAAAJ:d1gkVwhDpl0C:
@@ -106,11 +106,11 @@ papers:
     title: 'Tunagan: Interpretable gan for smart editing'
     year: '2019'
   gNw-Q3MAAAAJ:hqOjcs7Dif8C:
-    citations: 78
+    citations: 79
     title: "Experimental probe of twist angle\u2013dependent band structure of on-chip optical bilayer photonic crystal"
     year: '2023'
   gNw-Q3MAAAAJ:kNdYIx-mwKoC:
-    citations: 7
+    citations: 8
     title: Free-space beam steering with twisted bilayer photonic crystal slabs
     year: '2024'
   gNw-Q3MAAAAJ:mVmsd5A6BfQC:
@@ -122,7 +122,7 @@ papers:
     title: Tunable frequency filter based on twisted bilayer photonic crystal slabs
     year: '2022'
   gNw-Q3MAAAAJ:qxL8FJ1GzNcC:
-    citations: 25
+    citations: 26
     title: "Control of chirality and directionality of nonlinear metasurface light source via moir\xE9 engineering"
     year: '2025'
   gNw-Q3MAAAAJ:roLk4NBRz8UC:
@@ -130,7 +130,7 @@ papers:
     title: On-chip optical twisted bilayer photonic crystal
     year: '2023'
   gNw-Q3MAAAAJ:u-x6o8ySG0sC:
-    citations: 180
+    citations: 182
     title: Theory for twisted bilayer photonic crystal slabs
     year: '2021'
   gNw-Q3MAAAAJ:ufrVoPGSRksC:
