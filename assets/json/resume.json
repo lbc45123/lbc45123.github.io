@@ -10,11 +10,20 @@
   },
   "work": [
     {
+      "name": "",
+      "position": "Non-compete",
+      "startDate": "2026-04-01",
+      "endDate": "2028-04-01",
+      "summary": "2-year non-compete period beginning immediately.",
+      "highlights": [],
+      "selected": false
+    },
+    {
       "name": "Jump Trading",
       "position": "Researcher",
       "url": "https://www.jumptrading.com/",
       "startDate": "2024-09-01",
-      "endDate": "present",
+      "endDate": "2026-04-01",
       // "summary": "Next-generation pipeline for great things",
       "highlights": [],
       "selected": true

@@ -33,10 +33,11 @@ latest_posts:
 <div class="intro-text">
   <div class="mb-2">
     <strong>Currently:</strong>
-    <div class="ml-4">Researcher at <a href="https://www.jumptrading.com/">Jump Trading</a> (2024-present).</div>
+    <div class="ml-4">A Nomadic Thinker, and AI researcher.</div>
   </div>
   <div class="mb-2">
     <strong>Previously:</strong>
+    <div class="ml-4">Researcher at <a href="https://www.jumptrading.com/">Jump Trading</a> (2024-2026).</div>
     <div class="ml-4">PhD in Applied Physics from Stanford University (2018-2024). Advised by Prof. <a href="https://scholar.google.com/citations?user=BECu7wYAAAAJ&hl=en">Shanhui Fan</a>. Research on novel theory, numerical methods and optimization algorithms for photonic structures and optical information processing.</div>
   </div>
   <div>
