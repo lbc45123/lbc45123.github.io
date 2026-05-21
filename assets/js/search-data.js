@@ -30,7 +30,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-architecture-optimization-with-gnn",
+        },{id: "post-curiosity-as-meta-optimization",
+        
+          title: 'Curiosity as Meta-optimization <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        
+        description: "Curiosity as maximizing out-of-sample predictive power, driving both individual intelligence and evolutionary progress",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://medium.com/@lbc45123/curiosity-as-meta-optimization-39ee83915b5c", "_blank");
+          
+        },
+      },{id: "post-architecture-optimization-with-gnn",
         
           title: 'Architecture Optimization with GNN <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
         
