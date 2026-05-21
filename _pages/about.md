@@ -33,7 +33,7 @@ latest_posts:
 <div class="intro-text">
   <div class="mb-2">
     <strong>Currently:</strong>
-    <div class="ml-4">A nomadic thinker, and AI researcher.</div>
+    <div class="ml-4">AI researcher.</div>
   </div>
   <div class="mb-2">
     <strong>Previously:</strong>
