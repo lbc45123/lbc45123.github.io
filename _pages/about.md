@@ -47,6 +47,16 @@ latest_posts:
 </div>
 
 
+<nav class="page-sections-nav" aria-label="On this page">
+  <span class="page-sections-nav-label">On this page</span>
+  <a href="#section-background">Background</a>
+  <a href="#section-projects">Projects</a>
+  <a href="#section-posts">Posts</a>
+  <a href="#section-publications">Publications</a>
+  <a href="#section-contact">Contact</a>
+</nav>
+
+
 <div class="custom-quote">
   "More is different"
   <br>— PW Anderson

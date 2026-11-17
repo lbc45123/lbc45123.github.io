@@ -1593,3 +1593,54 @@ a:not(.btn):not(.nav-link):not(.card-link):not(.post-title) {
   background: transparent; // Clean look
 }
 
+// 8. On-page section navigation (home)
+.page-sections-nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.25rem 1.1rem;
+  margin: 1.75rem 0 0.5rem;
+  padding: 0.6rem 0;
+  border-top: 1px solid var(--global-divider-color);
+  border-bottom: 1px solid var(--global-divider-color);
+  font-size: 0.9rem;
+  letter-spacing: 0.01em;
+
+  .page-sections-nav-label {
+    color: var(--global-text-color-light);
+    font-variant: all-small-caps;
+    letter-spacing: 0.08em;
+    margin-right: 0.5rem;
+    font-size: 0.85rem;
+  }
+
+  a {
+    color: var(--global-text-color);
+    text-decoration: none;
+    padding: 0.1rem 0;
+    // Override the animated underline for a cleaner strip
+    background-image: none !important;
+
+    &:hover {
+      color: var(--global-theme-color);
+    }
+  }
+}
+
+// 9. Home section rhythm — subtle hierarchy between sections
+.home-section {
+  padding-top: 0.25rem;
+
+  + .home-section {
+    border-top: 1px solid var(--global-divider-color);
+    margin-top: 2.5rem;
+  }
+
+  > h2 {
+    font-size: 1.6rem;
+    font-weight: 600;
+    letter-spacing: -0.005em;
+    margin-bottom: 1rem;
+  }
+}
+
